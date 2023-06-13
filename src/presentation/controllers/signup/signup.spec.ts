@@ -10,8 +10,6 @@ import {
   AddAccount,
   AddAccountModel,
 } from "./signup-protocols";
-import { resolve } from "path";
-import { rejects } from "assert";
 
 const makeEmailValidator = (): EmailValidator => {
   class EmailValidatorStub implements EmailValidator {

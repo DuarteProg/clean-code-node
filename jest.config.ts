@@ -8,12 +8,18 @@ export default {
   transform: {
     ".+\\.ts$": "ts-jest",
   },
-  coveragePathIgnorePatterns: [
-    "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
-    "<rootDir>/src/domain/",
-    "<rootDir>/src/presentation/protocols"
-  ],
+  testEnvironment: "node",
+
+  // coveragePathIgnorePatterns: [
+  //   "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
+  //   "<rootDir>/src/domain/",
+  //   "<rootDir>/src/presentation/protocols"
+  // ],
+
+
 };
+
+
 
 
 // aqui é adicionando só oque eu quero....
