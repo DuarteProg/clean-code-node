@@ -1,4 +1,4 @@
-export default  {
+export default {
   roots: ["<rootDir>/src"],
   clearMocks: true,
   collectCoverage: true,
@@ -8,10 +8,13 @@ export default  {
   transform: {
     ".+\\.ts$": "ts-jest",
   },
-  // coveragePathIgnorePatterns: [
-  //   "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
-  // ], aqui é pra tirar o protocols
+  coveragePathIgnorePatterns: [
+    "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
+    "<rootDir>/src/domain/",
+    "<rootDir>/src/presentation/protocols"
+  ],
 };
+
 
 // aqui é adicionando só oque eu quero....
 // module.exports = {
@@ -28,7 +31,3 @@ export default  {
 //     ".+\\.ts$": "ts-jest",
 //   },
 // };
-
-
-
-
