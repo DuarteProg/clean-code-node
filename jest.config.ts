@@ -9,15 +9,16 @@ export default {
     ".+\\.ts$": "ts-jest",
   },
   testEnvironment: "node",
-
   coveragePathIgnorePatterns: [
     "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
     "<rootDir>/src/domain/",
-    "<rootDir>/src/presentation/protocols"
+    "<rootDir>/src/presentation/protocols",
+    "<rootDir>/src/data/protocols",
+    "<rootDir>/src/data/usecases/add-account/db-add-account-protocols.ts",
   ],
-
-
 };
+
+
 
 
 
