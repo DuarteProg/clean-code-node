@@ -10,11 +10,11 @@ export default {
   },
   testEnvironment: "node",
 
-  // coveragePathIgnorePatterns: [
-  //   "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
-  //   "<rootDir>/src/domain/",
-  //   "<rootDir>/src/presentation/protocols"
-  // ],
+  coveragePathIgnorePatterns: [
+    "<rootDir>/src/presentation/controllers/signup/signup-protocols.ts",
+    "<rootDir>/src/domain/",
+    "<rootDir>/src/presentation/protocols"
+  ],
 
 
 };
