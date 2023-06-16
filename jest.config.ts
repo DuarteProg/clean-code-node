@@ -5,6 +5,7 @@ export default {
   collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
   coverageDirectory: "coverage",
   coverageProvider: "v8",
+  preset: "@shelf/jest-mongodb",
   transform: {
     ".+\\.ts$": "ts-jest",
   },
@@ -17,11 +18,6 @@ export default {
     "<rootDir>/src/data/usecases/add-account/db-add-account-protocols.ts",
   ],
 };
-
-
-
-
-
 
 // aqui é adicionando só oque eu quero....
 // module.exports = {
